@@ -1,22 +1,22 @@
-Project Name: SCARA Robot: Detailed Kinematic Analysis, Quaternion, DH Parameters, and Workspace Evaluation
+Project Name: SCARA Manipulator Velocity Analysis and Error Compensation
 
 Description:
-This project provides a comprehensive analysis of a SCARA robotic manipulator, focusing on various kinematic and dynamic aspects. It includes calculations of quaternions and rotation matrices, application of Denavit-Hartenberg (DH) parameters, and detailed velocity analysis. The Jacobian matrix is computed to explore degrees of freedom, and the workspace of a three-link planar arm is visualized to illustrate the manipulator's reachability and performance in different configurations.
+This project focuses on computing joint velocities for a SCARA manipulator using Jacobian matrix relations. It involves error analysis between desired and actual joint values, employing both Jacobian inverse and pseudo-inverse methods for error compensation. MATLAB scripts and plots are provided for detailed analysis.
 
 File Structure:
 
-SCARA_Manipulator_HW2.pdf - The main report containing solutions for each question.
-Matlab_Workspace.m - Matlab script used for plotting the workspace of the three-link planar arm.
-Jacobians.xlsx - Spreadsheet containing the calculated Jacobian matrices.
-Diagrams/ - Folder containing any diagrams or illustrations used in the report.
-Readme.md - This file, explaining the contents of the project.
+Project_1_Report.pdf - Detailed report including velocity calculations, error analysis, and MATLAB plots.
+Jacobian_Calculations.m - MATLAB script for computing Jacobian matrix and joint velocities.
+Error_Analysis.m - MATLAB script for calculating and plotting errors using Jacobian inverse and pseudo-inverse.
+Plots/ - Folder containing graphs of errors and joint velocities.
 Installation and Usage:
-To replicate the workspace calculations, you will need Matlab installed on your system. Run the Matlab_Workspace.m script to generate the workspace plot.
+Ensure MATLAB is installed on your system. Open and run the provided scripts (Jacobian_Calculations.m and Error_Analysis.m) to perform velocity analysis and error compensation, and review the generated plots.
 
 Authors:
-Aditya Natesh V
+
+Aditya Natesh V 
 License:
 This project is licensed under the MIT License.
 
 Acknowledgments:
-Special thanks to Professor Giuseppe Loianno for their guidance and the lecture materials that made this project possible.
+Special thanks to B. Siciliano et al. for their foundational work in robotics, as referenced in "Robotics: Modelling, Planning and Control.
