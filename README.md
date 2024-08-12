@@ -1,0 +1,2 @@
+# SCARA-Robot-Detailed-Kinematic-Analysis-Quaternion-DH-Parameters-and-Workspace-Evaluation
+This project performs a detailed kinematic and dynamic analysis of a SCARA robotic manipulator. It includes calculating quaternions and rotation matrices, applying Denavit-Hartenberg (DH) parameters, analyzing angular and linear velocities, and computing the Jacobian matrix. The workspace of a three-link planar arm is also visualized.
